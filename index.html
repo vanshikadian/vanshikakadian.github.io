@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Vanshika</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/bc35dc8afb.js" crossorigin="anonymous"></script>
+  <!--cssdoodle-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.39.1/css-doodle.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll" style="background-color: black;">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-family:'Courier New'">
+                <i class="fa-solid fa-v fa-8x"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home", style="font-family:'Courier New'">
+                            <i class="fa-solid fa-house fa-2x fa-bounce"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about", style="font-family:'Courier New'">    
+                            <i class="fa-solid fa-info fa-2x fa-bounce"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services", style="font-family:'Courier New'">
+                            <i class="fa-solid fa-cogs fa-2x fa-bounce"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio", style="font-family:'Courier New'">
+                        <i class="fa-solid fa-diagram-project fa-2x fa-bounce"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact", style="font-family:'Courier New'">
+                        <i class="fa-solid fa-phone fa-2x fa-bounce"></i>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section id="home">
+        <css-doodle>
+            @grid: 20 / 100vmax / #0a0c27;
+            @content: @unicode.r(0x2500, 0x257f);
+            color: hsla(@r360, 70%, 70%, @r.9);
+            font-size: 8vmin;
+            font-family: sans-serif;
+        </css-doodle>
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title" style="font-family:'Impact'">Hi, I'm Vanshika</h2>
+                <p class="hero_desc">I'm a student majoring in computer science looking forward to learning something new every day</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center aboutText", style="font-family:'Courier New'">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <center><div class="col-lg-8">
+                    <p class="aboutText" style="text-align:center;font-family:'Courier New'"> Hi, my name is Vanshika Kadian. I hail from Haryana, a state in India, I completed my high school education in India and am currently enrolled at the Michigan State University in Michigan. I strive to prioritize learning and dedication in every aspect of my life. I am also a swimmer, having competed at the national level. Performing at such a big stage has aided my ability to cope in high pressure situations.
+                         </p></center>
+                    <center><div class="row mt-3">
+                    <p class="aboutText" style="font-family:'Courier New'"> I have extensively worked with programming languages such as Python, C, and Java. Working on projects in high school brought
+                                                          before me the importance of collaboration in engineering. Focusing on the aforementioned collaborative and iterative aspect of engineering 
+                                                          will help me gain a clearer picture of the objectives laid out. I am looking forward to working at an organization to which I can prove to be an asset.
+                        </p>
+                    </div></center>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="containers">
+            <h1 class="text-center aboutText", style="font-family:'Courier New'">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="cards">
+                        <div class="box">
+                            <div class="content">
+                                <h2>01</h2>
+                                <h3>Linked Lists</h3>
+                                <p>Having worked with C++ extensively, this is a project involving linked lists. </p>
+                                <a href="https://github.com/vanshikadian/Linked_Lists.git">Code</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="cards">
+                        <div class="box">
+                            <div class="content">
+                                <h2>02</h2>
+                                <h3>Hybrid Sorting</h3>
+                                <p>This is another C++ project of mine wherein I have utilised and displayed my proficiency in Hybrid Sorting.</p>
+                                <a href="https://github.com/vanshikadian/Hybrid_Sorting.git">Code</a>   
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="cards">
+                        <div class="box">
+                            <div class="content">
+                                <h2>03</h2>
+                                <h3>Hash Tables</h3>
+                                <p>A classic project involving Hash Tables, written in C++</p>
+                                <a href="https://github.com/vanshikadian/Hash_Tables.git">Code</a>  
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="cards">
+                        <div class="box">
+                            <div class="content">
+                                <h2>04</h2>
+                                <h3>AVL Tree</h3>
+                                <p>Implemenation and generation of an AVL and BST tree</p>
+                                <a href="https://github.com/vanshikadian/AVL_Tree.git">Code</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="cards">
+                        <div class="box">
+                            <div class="content">
+                                <h2>05</h2>
+                                <h3>Vertex Methods</h3>
+                                <p>Showcased proficiency in vertex methods by creating a vertex object.</p>
+                                <a href="https://github.com/vanshikadian/Vertex_Object.git">Code</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="cards">
+                        <div class="box">
+                            <div class="content">
+                                <h2>06</h2>
+                                <h3>Finance Tracker</h3>
+                                <p>Collaborated with peers to create and succesfully implement a personal finance tracker.</p>
+                                <a href="https://github.com/vanshikadian/Personal-Finance-Tracker.git">Code</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <h1 class="text-center aboutText", style="font-family:'Courier New'">Skills</h1>
+        <div class="containerv">
+            <div class="item">
+              <div class="cardv">
+                <div class="circle circle2"></div>
+                <div class="circle circle1"></div>
+                <img src="C:\Users\manav\Documents\portfolio_website_fcc-master\codes_img.jpg"/>
+              </div>
+              <div class="contentv">
+                <p>I have a strong proficiency in machine learning, with expertise in developing and implementing algorithms for data analysis, predictive modeling, and pattern recognition. My skills encompass a wide range of ML techniques, including supervised and unsupervised learning, deep learning, and natural language processing. I am adept at using popular frameworks like TensorFlow, PyTorch, and scikit-learn to build and optimize models.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="cardv">
+                <div class="circle circle2"></div>
+                <div class="circle circle1"></div>
+                <img src="C:\Users\manav\Documents\portfolio_website_fcc-master\Stock_AAAS.jpg" />
+              </div>
+              <div class="contentv">
+                <p>I excel in code optimization, focusing on improving the efficiency and performance of software applications. My expertise includes profiling and identifying bottlenecks, refining algorithms, and leveraging advanced programming techniques to minimize resource consumption. I am proficient in using tools and techniques to enhance code readability, maintainability, and execution speed, ensuring robust and scalable solutions.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="cardv">
+                <div class="circle circle2"></div>
+                <div class="circle circle1"></div>
+                <img src="C:\Users\manav\Documents\portfolio_website_fcc-master\key_img.jpg" />
+              </div>
+              <div class="contentv">
+                <p>I am proficient in parallel computing, with a deep understanding of techniques to distribute and optimize workloads across multiple processors and cores. My expertise includes utilizing frameworks like MPI, OpenMP, and CUDA to accelerate computational tasks, enhancing the performance of complex algorithms and data processing pipelines.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <h1 class="text-center aboutText", style="font-family:'Courier New'">Socials</h1>
+        <div class="container mt-4 contact-card">
+
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div class="containerm">
+                        <div class="cardm">
+                            <div class="face face1">
+                                <div class="contentm">
+                                    <div class="iconm">
+                                        <im class="fa fa-linkedin-square" aria-hidden="true"></im>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="contentm">
+                                    <h3>
+                                        <a href="http://linkedin.com/in/vanshika-kadian" target="_blank">vanshika-kadian</a>
+                                    </h3>
+                                    <p>This is where I network and build my professional protfolio.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardm">
+                            <div class="face face1">
+                                <div class="contentm">
+                                    <div class="iconm">
+                                        <im class="fa-brands fa-discord" aria-hidden="true"></im>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="contentm">
+                                    <h3>
+                                        <a href="https://discord.com/channels/@me" target="_blank">@VanshikaKadian</a>
+                                    </h3>
+                                    <p>This is where I socialize with peers and like minds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardm">
+                            <div class="face face1">
+                                <div class="contentm">
+                                    <div class="iconm">
+                                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="contentm">
+                                    <h3>
+                                        <a href="https://github.com/vanshikadian" target="_blank">vanshikadian</a>
+                                    </h3>
+                                    <p>This is where I share code and work on projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+</body>
+
+
+</html>
