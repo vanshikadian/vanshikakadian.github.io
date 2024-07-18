@@ -4,7 +4,7 @@
 }
 
 .bgimage {
-    height:100vh;
+    height:100px;
     background: url('websitebg.jpg');
     background-size:cover;
     position:relative;
