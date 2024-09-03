@@ -114,7 +114,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Impact', sans-serif;
+    font-family: 'Courier New', sans-serif;
 }
 
 body {
@@ -253,7 +253,7 @@ bodyv {
     height: 100vh;
     display: grid;
     align-items: center;
-    font-family: 'Impact', sans-serif;
+    font-family: 'Courier New', sans-serif;
     background: #E0D8DC;
 }
 
@@ -513,7 +513,7 @@ bodyv {
     height: 100vh;
     display: grid;
     align-items: center;
-    font-family: 'Impact', sans-serif;
+    font-family: 'Courier New', sans-serif;
     background: #E0D8DC;
 }
 
