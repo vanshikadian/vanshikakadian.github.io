@@ -20,6 +20,12 @@
             <a class="navbar-brand" href="#" style="font-family: 'Times New Roman', Times, serif;">
                 <!--<i class="fa-solid fa-v fa-8x"></i>-->
             </a>
+
+              <!-- brand/logo -->
+            <a class="navbar-brand me-4" href="/" style="font-family: 'Courier New', monospace; color: #d6536d; font-size: 1.5rem;">
+                &lt;Vanshika&gt;
+            </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,6 +41,17 @@
                             <i class="fa-solid fa-info fa-lg fa-bounce"></i>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" style="color:#d6536d;">
+                            <i class="fa-solid fa-graduation-cap fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" style="color:#d6536d;">
+                            <i class="fa-solid fa-briefcase fa-lg"></i>
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#services" style="font-family: 'Arial', sans-serif; color: #d6536d;">
                             <i class="fa-solid fa-cogs fa-lg fa-bounce"></i>
@@ -67,37 +84,154 @@
         </div>
     </section>
 
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center aboutText" style="font-family: 'Impact', sans-serif; color: #e43d12;">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/about.jpeg" class="imageAboutPage" alt="">
-                </div>
+  <!-- about + tech proficiency -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
 
-                <center><div class="col-lg-8">
-                    <p class="aboutText" style="text-align: center; font-family: 'Courier New', sans-serif;"> I am currently enrolled at Michigan State University, pursuing a Bachelor of Science in Computer Science. 
-                                                                                                        I strive to prioritize learning and dedication in every aspect of my life. 
-                                                                                                        As a swimmer who has competed at the national level, I have developed a strong ability to perform under pressure, which has significantly shaped my approach to challenges in both my academic and professional pursuits.
+      <!-- intro + resume download -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h2 style="font-family:'Impact',sans-serif; color:#e43d12;">About Me</h2>
+        <p style="font-size:1.1rem; line-height:1.5;">
+          Hi, I'm Vanshika — a senior-year Computer Science student at Michigan State University.  
+          I love turning data into insights, building sleek full-stack apps, and competing in the pool as a national-level swimmer.
+        </p>
+        <a href="/assets/Vanshika_Kadian_Resume.pdf" class="btn btn-outline-primary">
+          <i class="fa fa-download"></i> Download Resume
+        </a>
+      </div>
 
+      <!-- sliders -->
+      <div class="col-md-6">
+        <h2 style="font-family:'Impact',sans-serif; color:#4B6E67;">Technologies</h2>
 
-                    <center><div class="row mt-3">
-                    <p class="aboutText" style="font-family: 'Courier New', sans-serif;"> I have extensively worked with programming languages such as Python, C++, and JavaScript. 
-                      Through various projects, I have come to understand the importance of collaboration in engineering. Emphasizing this collaborative and iterative aspect helps me gain a clearer picture of the objectives laid out and ensures that I contribute effectively to any team.
-I am keenly interested in data science, machine learning and AI, fields that continually inspire me with their potential to transform industries and solve complex problems. 
-                      I have honed my skills in these areas through internships and projects, where I have applied advanced data analysis techniques and developed intelligent algorithms to derive actionable insights.
-                        </p>
-                    </div></center>
-                      
-                      <center><div class="col-lg-8">
-                    
-                      <p class="aboutText" style="text-align: center; font-family: 'Courier New', sans-serif;"> I am eager to bring my skills and passion for technology to an organization where I can prove to be an asset, contributing to innovative solutions and driving meaningful progress.
-                      </p>
-                      </div></center>
-                </div>
-            </div>
-    </section>
+        <div class="tech">
+          <label>Python <span>90%</span></label>
+          <input type="range" min="0" max="100" value="90" disabled>
+        </div>
+
+        <div class="tech">
+          <label>JavaScript <span>85%</span></label>
+          <input type="range" min="0" max="100" value="85" disabled>
+        </div>
+
+        <div class="tech">
+          <label>React <span>80%</span></label>
+          <input type="range" min="0" max="100" value="80" disabled>
+        </div>
+
+        <div class="tech">
+          <label>Node.js <span>75%</span></label>
+          <input type="range" min="0" max="100" value="75" disabled>
+        </div>
+
+        <!-- add more sliders as needed -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Education Section -->
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4" style="font-family:'Impact',sans-serif; color:#e43d12;">
+      Education
+    </h2>
+    <ul class="list-unstyled">
+      <li class="mb-4">
+        <h5><strong>Michigan State University</strong> <small class="text-muted">Aug 2022 – May 2026</small></h5>
+        <p>B.S. in Computer Science; Minor in Cognitive Science<br>
+           GPA: 3.76/4.00<br>
+           Awards: Dean’s Honors List; Honors Excellence Award ($13 000/yr); International Tuition Grant ($25 000/yr); TATA Alankar Award for Excellence in Swimming</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Work Experience Section -->
+<section id="experience" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4" style="font-family:'Impact',sans-serif; color:#d6536d;">
+      Work Experience
+    </h2>
+    
+    <!-- Bosch -->
+    <div class="row align-items-start mb-4">
+      <div class="col-md-3 text-md-end">
+        <small class="text-muted">Jun 2024 – Aug 2024</small>
+      </div>
+      <div class="col-md-9">
+        <h5><strong>Bosch Global Software Technologies</strong>, ML/Data Science Intern</h5>
+        <ul>
+          <li>Utilized CNNs to improve object detection and collision avoidance systems, achieving a 25% accuracy boost and a 30% reduction in processing time.</li>
+          <li>Employed Random Forest and Gradient Boosting on 500 000+ data points, improving AEBS accuracy by 20% and reducing false positives by 15%.</li>
+          <li>Conducted sentiment analysis on 100 000+ textual data points with transformer architectures, sparking a 10% increase in customer satisfaction.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Elsamex -->
+    <div class="row align-items-start mb-4">
+      <div class="col-md-3 text-md-end">
+        <small class="text-muted">May 2024 – Jul 2024</small>
+      </div>
+      <div class="col-md-9">
+        <h5><strong>Elsamex, Ltd.</strong>, Back End Developer Intern</h5>
+        <ul>
+          <li>Spearheaded development of an internal asset-management system with Django and Flask.</li>
+          <li>Designed SQL databases to track assets, improving tracking efficiency by 40%.</li>
+          <li>Enhanced system performance, reducing load times by 35% and enforcing secure access protocols.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- NSO -->
+    <div class="row align-items-start mb-4">
+      <div class="col-md-3 text-md-end">
+        <small class="text-muted">May 2024 – Aug 2024</small>
+      </div>
+      <div class="col-md-9">
+        <h5><strong>MSU New Student Orientation</strong>, App Developer</h5>
+        <ul>
+          <li>Developed the NSO app in JavaScript/React/React Native and Firebase for 20 000+ users.</li>
+          <li>Planned events and trained 100+ Spartan Leaders—boosting participation by 25%.</li>
+          <li>Streamlined admin processes with feature integrations—improving efficiency by 20%.</li>
+          <li>Used Xcode & Android Studio to preview iOS/Android builds.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- MSU IT -->
+    <div class="row align-items-start mb-4">
+      <div class="col-md-3 text-md-end">
+        <small class="text-muted">Feb 2024 – Present</small>
+      </div>
+      <div class="col-md-9">
+        <h5><strong>Michigan State University, Information Technology</strong>, IT Student Technician</h5>
+        <ul>
+          <li>Provide hardware support, maintenance, and troubleshooting for computers & mobile devices.</li>
+          <li>Manage software installations/updates across platforms.</li>
+          <li>Coordinate deployment, setup, and distribution of tech equipment.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- MSU Museum -->
+    <div class="row align-items-start">
+      <div class="col-md-3 text-md-end">
+        <small class="text-muted">Jan 2023 – Dec 2023</small>
+      </div>
+      <div class="col-md-9">
+        <h5><strong>Michigan State University Museum</strong>, Project Management Intern</h5>
+        <ul>
+          <li>Directed an RFID-enabled Android app project, consulting with MSU Museum & Smithsonian stakeholders.</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</section>
 
     <!-- services section-->
     <section id="services">
