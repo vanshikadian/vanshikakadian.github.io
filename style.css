@@ -17,42 +17,21 @@
 }
 
 /* text css above hero image */
-.hero-image {
-    width: auto;
-    height: 100vh;
-    display: block;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+/* ensure the hero always fills the viewport */
+#home {
+  min-height: 100vh;
 }
 
-.hero_title {
-    font-size: 4.5rem;
-    font-family: 'Impact', sans-serif;
-    color: #4B6E67;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* optional: tighten up mobile spacing */
+@media (max-width:767px) {
+  #home h1 {
+    font-size: 3rem !important;
+  }
+  #home p {
+    font-size: 1.1rem !important;
+  }
 }
 
-.hero_desc {
-    font-size: 2rem;
-    font-family: 'Impact', sans-serif;
-    color: #d6536d;
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-}
 
 /* spacing on all sections */
 #contact {
