@@ -3,9 +3,16 @@
     background-color: #EBE9E1;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
 .bgimage {
     height:100vh;
-    width:200vh;
+    width:100%;
     background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1920px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg");
     background-size:cover;
     position:relative;
@@ -16,14 +23,28 @@
     padding-right: 30px;
 }
 
-/* text css above hero image */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EBE9E1; 
+  min-height: 100vh;
+  padding: 4rem 2rem;
+}
+#home .col-md-6:first-child {
+  max-width: 50%;
+}
+#home .col-md-6:last-child {
+  max-width: 45%;
+  text-align: center;
+}
+
 .hero-image {
-    width: auto;
-    height: 100vh;
-    display: block;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .hero_title {
@@ -52,6 +73,90 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+}
+
+#home,
+#skills,
+#proficiency {
+  background-color: transparent !important;
+}
+
+#skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+#skills .col-md-6:first-child {
+  max-width: 50%;
+}
+#skills .col-md-6:last-child {
+  max-width: 45%;
+  text-align: center; /* for your icon or model */
+}
+/* your bullet list styling */
+#skills ul {
+  list-style: disc inside;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#proficiency {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+#proficiency .col-md-6:first-child {
+  max-width: 50%;
+}
+#proficiency .col-md-6:last-child {
+  max-width: 45%;
+  text-align: center; 
+}
+
+.tech {
+  margin-bottom: 1.5rem;
+}
+.tech label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: .3rem;
+  color: #333;
+}
+.tech input[type="range"] {
+  width: 100%;
+  height: 6px;
+  border-radius: 4px;
+  background: #dcdcdc;
+  outline: none;
+  pointer-events: none;
+}
+.tech input[type="range"]::-webkit-slider-thumb {
+  pointer-events: none;
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+@media (max-width: 767px) {
+  #home,
+  #skills,
+  #proficiency {
+    flex-direction: column;
+    text-align: center;
+  }
+  #home .col-md-6,
+  #skills .col-md-6,
+  #proficiency .col-md-6 {
+    max-width: 100%;
+  }
+  #home img,
+  #skills .tech-icon img,
+  #proficiency .proficiency-icon img {
+    margin: 2rem auto 0;
+  }
 }
 
 /* spacing on all sections */
