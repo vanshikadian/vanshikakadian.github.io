@@ -99,31 +99,43 @@
   </div>
 </section>
 
-<section id="tech" class="py-5 bg-light">
+<section id="tech" class="py-5">
   <div class="container">
     <div class="row align-items-center">
-      <!-- List on left -->
-      <div class="col-md-6">
-        <h2 class="section-title">Technologies</h2>
-        <ul class="tech-list">
-          <li>Python</li>
-          <li>JavaScript (ES6+)</li>
-          <li>React & Redux</li>
-          <li>Node.js & Express</li>
-          <li>SQL / PostgreSQL</li>
-          <li>Firebase / AWS</li>
-        </ul>
-      </div>
-      <!-- Illustration on right -->
+      
       <div class="col-md-6 text-center">
-        <!-- Replace with your SVG/PNG -->
         <img src="images/tech-illustration.svg"
              alt="Tech Illustration"
              class="img-fluid tech-illu">
       </div>
+      
+      <div class="col-md-6">
+        <h2 class="section-title">Technologies</h2>
+        <ul class="tech-list">
+          <li>Python</li>
+          <li>JavaScript </li>
+          <li>React </li>
+          <li>Node.js</li>
+          <li>SQL / PostgreSQL</li>
+          <li>Firebase </li>
+          <li>Machine learning</li>
+            <li>TensorFlow & scikit-learn</li>
+            <li>Data analysis</li>
+            <li>Git / GitHub</li>
+            <li>Docker</li>
+            <li>REST APIs</li>
+
+          <div class="col-md-6">
+            <h2 class="section-title">Technologies</h2>
+            <ul class="tech-list">…</ul>
+            <canvas id="tech-chart" width="300" height="300"></canvas>
+        </div>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
+
 
 <section id="proficiency" class="py-5">
   <div class="container">
@@ -449,5 +461,26 @@
         </div>
     </div>
     </section>   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('tech-chart');
+  new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['Python','JS','React','Node','SQL','Machine Learning'],
+      datasets: [{
+        data: [90,70,60,65,80,75],
+        backgroundColor: [
+          '#d6536d','#ffa2b6','#4B6E67','#89bab0','#E0D8DC','#FFC0CB'
+        ]
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom' } }
+    }
+  });
+</script>
+
 </body>
 </html>

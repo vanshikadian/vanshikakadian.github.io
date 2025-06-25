@@ -91,6 +91,12 @@ img {
   line-height: 1.6;
 }
 
+#tech-chart {
+  display: block;
+  margin: 2rem auto 0;
+  max-width: 300px;
+}
+
 /* proficiency sliders */
 .tech {
   margin-bottom: 1.5rem;
@@ -106,7 +112,7 @@ img {
   width: 100%;
   height: 6px;
   border-radius: 4px;
-  background: #dcdcdc;
+  background: transparent;
   outline: none;
   pointer-events: none;
 }
