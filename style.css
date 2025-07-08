@@ -626,3 +626,14 @@ img {
     margin-top: 2rem;
   }
 }
+
+.navbar-nav .nav-link i {
+  color: #d6536d; 
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav .nav-link i:hover {
+  transform: translateY(-3px); 
+  color: #ce3267; 
+}
+
