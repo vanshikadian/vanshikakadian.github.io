@@ -97,12 +97,12 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    background: #ffa2b6;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: #09021c;   
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 body .containers {
